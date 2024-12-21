@@ -1,0 +1,449 @@
+/* 
+black 000000
+gold FFDB73
+gold light FAEA8F
+red ED1C24
+*/
+
+
+/* --------------------------------------- */
+/* Top section css */
+/* --------------------------------------- */
+.topSection{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+}
+.contentContainer{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    /* background-color:black; */
+    display: flex;
+    /* flex-direction: column; */
+}
+.contentContainer .left{
+    width:45%
+}
+.contentContainer .right{
+    width: 55%;
+    height: 100%;
+}
+.left{
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .circle{
+    position: absolute;
+    /* top: 0px; */
+    right: -20px;
+    width: 700px;
+    height: 700px;
+    background-color: #FFDB73;
+    border-radius: 100%;
+    z-index: -1;}
+/*
+
+    */
+.left-content{
+    /* background-color: bisque; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0px 10px;
+    text-align: center;
+    z-index: 2;
+}
+.left-content h3{
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+.left-content h1{
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 25px;
+    margin-bottom:10px;
+}
+.left-content h4{
+    font-size:12px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.right{
+    /* background-color: rgb(143, 12, 12); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-content{
+    /* background-color: turquoise; */
+    padding:10px;
+    /* height:90%; */
+}
+.right-content .text{
+    margin-bottom: 20px;
+}
+.right-content .text h5{
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+.right-content .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-content .image img{
+    height:200px;
+}
+.right-content .buttons{
+    margin-top:30px;
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.right-content .buttons button{
+    padding:10px 15px;
+    font-size:18px;
+    /* font-weight: lighter; */
+    border-radius: 4px;
+    outline:none;
+    border:none;
+    background-color: #FFDB73;
+    cursor: pointer;
+    color:black;
+}
+.right-content .buttons button:active{
+    transform: scale(.9);
+}
+
+
+/* --------------------------------------- */
+/* chooseUs section css */
+/* --------------------------------------- */
+
+
+.chooseUs{
+    /* height:80vh; */
+    width:100%;
+    /* background-color: red; */
+    padding:50px 20px;
+  
+}
+.chooseUs .container{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.chooseUs .textContent{
+    padding:0px 30px;
+    /* background-color:blue; */
+    margin:10px 0px 40px 0px;
+
+}
+.chooseUs .textContent h4{
+    font-size:30px;
+    text-align: center;
+
+}
+.chooseUs .secContent{
+    /* background-color: aqua; */
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+    justify-items: center;
+    padding:0px 5px;
+}
+.chooseUs .secContent .card{
+    /* border:2px solid black; */
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:20px;
+    padding:10px;
+}
+.chooseUs .secContent .icon{
+    /* width:100px;
+    height:100px; */
+    /* background-color: yellow; */
+    padding:10px;
+    margin-bottom: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chooseUs .secContent .card span{
+    font-size:18px;
+    font-weight: lighter;
+    font-style: italic  ;
+    text-transform: capitalize;
+}
+.chooseUs .secContent .card i{
+   font-size:40px;
+}
+
+/* --------------------------------------- */
+/* Where to start... box css */
+/* --------------------------------------- */
+
+.boxSection{
+    width:100%;
+    height:100vh;
+    /* background-color: red; */
+}
+.boxSection .container{
+    width:100%;
+    height:100%;
+    padding:50px 25px;
+    /* background-color: green; */
+}
+.boxSection .box{
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.boxSection .box .boxImage{
+    width:100%;
+    height:70%;
+    /* background-color: aqua; */
+
+}
+.boxSection .box .boxImage .boxBackground{
+    background: url(./Image/boxImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    border-radius: 15px 0px  0px 15px;
+
+}
+.boxSection .box .boxContent{
+    width:100%;
+    height:30%;
+    /* background-color: black; */
+    color: #FFDB73;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .boxContent .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.box .boxContent p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:25px;
+    text-align:center;
+    margin:10px 0px;
+}
+.box .boxContent a{
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    padding:8px 17px;
+    background-color: #FFDB73;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left:20px;
+}
+@media only screen and (min-width:750px){
+
+ 
+.boxSection .box{
+    flex-direction: row;
+}
+.boxSection .box .boxImage{
+    height:100%;
+    width:70%;
+}
+
+.boxSection .box .boxContent{
+    height:100%;
+    width:30%;
+    padding:10px;
+}
+.box .boxContent .buttons{
+    flex-direction: column;
+    padding:5px;
+}
+.box .boxContent p{
+    font-size:35px;
+    text-align:center;
+}
+.box .boxContent a{
+    margin-bottom:20px;
+}
+.box .boxContent p{
+    font-size:35px;
+    text-align:center;
+    margin:30px 5px;
+}
+
+
+}
+
+
+
+/* slder css */
+
+.slider-Section{
+    width:100%;
+    height:100vh;
+    border:2px solid gold;
+    border-radius: 10px;
+    /* margin:5px; */
+    /* overflow: hidden; */
+    /* background-color: green; */
+    padding:40px;
+}
+.slider-Container{
+    /* border:2px solid black; */
+    padding:10px;
+}
+.slider-Container .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+.slider-Container .heading h1{
+    font-size:19px;
+}
+.slider-Container .heading a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color: gold;
+    outline:none;
+}
+.slider-Container .heading a:active{
+    transform: scale(.9);
+}
+
+.Slider-card{
+    width:100%;
+    height: 100%;
+    /* background-color: blue; */
+    /* border:2px solid gold; */
+    border-radius: 10px;
+    /* padding:0px 20px;    */
+    /* margin-right:15px; */
+}
+.Slider-card .content-Container{
+    /* padding:20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Slider-card .content-Container .Cardimage{
+    height:300px;
+    width:100%;
+    background-color: red;
+    margin-bottom:10px;
+    overflow :hidden;
+}
+.Slider-card .content-Container .Cardimage img{
+    width:100%;
+    height: 100%;
+}
+
+.Slider-card .content-Container .text-Content{
+    /* border:2px solid black; */
+    padding:5px;
+}
+.text-Content p{
+    text-align: left;
+}
+.text-Content span{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:450px){
+    .Slider-card{
+        padding:0px 10px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    /* top section css */
+    .contentContainer .left,.contentContainer .right{
+        width:50%;
+    }
+    .left .circle{
+        width: 1000px;
+        height: 1000px;
+    }
+    .right-content{
+        padding: 0px 30px;
+    }
+    .right-content .text h5{
+        font-size:20px;
+    }
+    .right-content .image img{
+        height:300px;
+    }
+
+    /* chooseus section css */
+    .chooseUs .secContent .card{
+        margin-bottom:20px;
+    }
+    .chooseUs .secContent{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .chooseUs .secContent .card span{
+        font-size:18px;
+    }
+    .chooseUs .secContent .card i{
+        font-size:60px;
+     }
+
+     /* slider section */
+     .Slider-card{
+    padding:0px 20px;   
+
+     }
+     
+}
+@media only screen and (min-width:1100px){
+    /* top section css */
+    .left .circle{
+        width: 1500px;
+        height: 1500px;
+    }
+    
+     
+}
