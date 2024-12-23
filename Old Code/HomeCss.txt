@@ -1,3 +1,4 @@
+CSS of Home.css
 /* 
 black 000000
 gold FFDB73
@@ -311,7 +312,87 @@ red ED1C24
 
 
 
+/* slder css */
 
+.slider-Section{
+    width:100%;
+    height:100vh;
+    border:2px solid gold;
+    border-radius: 10px;
+    /* margin:5px; */
+    /* overflow: hidden; */
+    /* background-color: green; */
+    padding:40px;
+}
+.slider-Container{
+    /* border:2px solid black; */
+    padding:10px;
+}
+.slider-Container .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+.slider-Container .heading h1{
+    font-size:19px;
+}
+.slider-Container .heading a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color: gold;
+    outline:none;
+}
+.slider-Container .heading a:active{
+    transform: scale(.9);
+}
+
+.Slider-card{
+    width:100%;
+    height: 100%;
+    /* background-color: blue; */
+    /* border:2px solid gold; */
+    border-radius: 10px;
+    /* padding:0px 20px;    */
+    /* margin-right:15px; */
+}
+.Slider-card .content-Container{
+    /* padding:20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Slider-card .content-Container .Cardimage{
+    height:300px;
+    width:100%;
+    background-color: red;
+    margin-bottom:10px;
+    overflow :hidden;
+}
+.Slider-card .content-Container .Cardimage img{
+    width:100%;
+    height: 100%;
+}
+
+.Slider-card .content-Container .text-Content{
+    /* border:2px solid black; */
+    padding:5px;
+}
+.text-Content p{
+    text-align: left;
+}
+.text-Content span{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*
 @media only screen and (min-width:450px){
     .Slider-card{
         padding:0px 10px;

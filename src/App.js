@@ -12,11 +12,16 @@ import MenPerfume from './Pages/MenPerfume';
 import WomenPerfume from './Pages/WomenPerfume';
 import TesterBox from './Pages/TesterBox';
 import ContactUs from './Pages/ContactUs';
+import Card from './Components/Card/Card';
 
 function App() {
   return (
     <>
-      <Router> {/* Use Router here, as it's aliased from BrowserRouter */}
+
+
+
+ {/* Use Router here, as it's aliased from BrowserRouter */}
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,6 +32,8 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </Router>
+
+      
     </>
   );
 }

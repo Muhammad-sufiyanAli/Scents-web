@@ -13,8 +13,7 @@ import bottleImage from './Image/bottleImage.png'
 
 
 const Home = () => {
- 
-   const responsive = {
+  const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -33,8 +32,6 @@ const Home = () => {
       items: 1,
     },
   };
-
-
   return (
     <>
     {/* -------------------------------- */}

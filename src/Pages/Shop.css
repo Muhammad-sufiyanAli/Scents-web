@@ -1,0 +1,45 @@
+.arrivalSection{
+    width:100vw;
+    /* background-color: red; */
+    padding:10px;
+}
+
+.arrivalSection .arrivalContainer{
+    width:100%;
+    /* background-color: blue; */
+}
+
+.arrivalText{
+    padding:10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.arrivalText h1{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin:20px 0px;
+}
+.arrivalText hr{
+    width:80%;
+    border-radius: 10px;
+    height: 5px;
+    background-color: black;
+    border:none;
+    opacity: .7;
+}
+
+.arrivalItems{
+    /* background-color: orange; */
+    padding:20px 10px;
+}
+.arrivalItemContainer{
+    /* background-color: yellowgreen; */
+    padding:5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}

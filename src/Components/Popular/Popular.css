@@ -1,0 +1,37 @@
+.slider-Section{
+  width:100%;
+  height:100vh;
+  /* border:2px solid gold; */
+  border-radius: 10px;
+  /* margin:5px; */
+  /* overflow: hidden; */
+  /* background-color: green; */
+  padding:40px;
+}
+.slider-Container{
+  /* border:2px solid black; */
+  padding:10px;
+}
+.slider-Container .heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:20px;
+
+}
+.slider-Container .heading h1{
+  font-size:19px;
+}
+.slider-Container .heading a{
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  border:none;
+  border-radius: 5px;
+  padding:5px 10px;
+  background-color: gold;
+  outline:none;
+}
+.slider-Container .heading a:active{
+  transform: scale(.9);
+}
